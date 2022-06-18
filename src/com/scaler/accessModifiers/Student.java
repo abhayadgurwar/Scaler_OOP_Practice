@@ -1,8 +1,8 @@
-package com.scaler.constructors;
+package com.scaler.accessModifiers;
 public class Student {
     String name;
-    String address;
-    String email;
+    private String address;
+    public String email;
     String batch;
     double psp;
     String state;

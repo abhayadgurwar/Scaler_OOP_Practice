@@ -1,20 +1,21 @@
-package com.scaler.constructors;
-public class Student {
+package com.scaler.accessModifiers.packageOne;
+
+public class Student1 {
     String name;
-    String address;
-    String email;
+    private String address;
+    public String email;
     String batch;
     double psp;
     String state;
 
     int age;
 
-    Student(String name, String address) {
+    Student1(String name, String address) {
         this.name = name;
         this.address = address;
     }
 
-    Student(Student other){
+    Student1(Student1 other){
         name = other.name;
         address =  other.address;
         email =  other.email;
@@ -23,7 +24,7 @@ public class Student {
         age =  other.age;
     }
 
-    public Student() {
+    public Student1() {
 
     }
 
