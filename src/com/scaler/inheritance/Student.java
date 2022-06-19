@@ -1,7 +1,31 @@
 package com.scaler.inheritance;
 
 public class Student extends User{
-    String batch;
+    private String batch;
     double psp;
-    Mentor mentor;
+    private Mentor mentor;
+
+    public String getBatch() {
+        return batch;
+    }
+
+    public void setBatch(String batch) {
+        this.batch = batch;
+    }
+
+    public double getPsp() {
+        return psp;
+    }
+
+    public void setPsp(double psp) {
+        this.psp = psp;
+    }
+
+    public Mentor getMentor() {
+        return mentor;
+    }
+
+    public void setMentor(Mentor mentor) {
+        this.mentor = mentor;
+    }
 }
