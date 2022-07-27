@@ -1,4 +1,4 @@
-package com.javatpoint.methodReferences;
+package com.javatpoint.java8.methodReferences;
 
 public class MethodReference2 {
     public static void  ThreadStatus(){

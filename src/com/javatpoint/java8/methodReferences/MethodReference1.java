@@ -1,4 +1,4 @@
-package com.javatpoint.methodReferences;
+package com.javatpoint.java8.methodReferences;
 
 interface Sayable{
     void say();
